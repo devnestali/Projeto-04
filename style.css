@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+header {
+  position: fixed;
+  background-color: #065E7C;
+  width: 100%;
+  height: 7.2rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 2.6rem;
+  z-index: 1;
+}
+
+header .logo {
+  background-color: #F4FCFF;
+  border-radius: 50%;
+  padding: .8rem;
+  margin: 1.5rem 0 1.5rem 2.8rem;
+}
+
+header input {
+  flex: 1;
+  border: 0;
+  margin: 15px 0;
+  padding-left: 1.4rem;
+  border-radius: .4rem;
+  background-color: hsla(0, 0%, 20%, 0.20);
+}
+
+header input::placeholder {
+  color: #ffffff;
+}
+
+header .avatar {
+  margin: 1.5rem 2.8rem 1.5rem 0;
+}
+
+header .avatar img {
+  height: 4.2rem;
+  width: 4.2rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+main .image-1 img {
+  min-width: 100%;
+  min-height: 21.9rem;
+  object-fit: cover;
+}
+
+main .main-content {
+  width: 34.2rem;
+  height: 8.6rem;
+  margin-top: 3.1rem;
+  margin-left: 2.2rem;
+}
+
+main .main-content h1 {
+  font-size: 2.4rem;
+  margin-bottom: .8rem;
+  font-weight: bold;
+}
+
+main .main-content button + button {
+  margin-left: 1.2rem;
+}
+
+main .main-content button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+main p {
+  width: 38.2rem;
+  margin-top: 3.1rem;
+  margin-bottom: 3.4rem;
+  padding-left: 2.2rem;
+}
+
+section {
+  width: 38.4rem;
+  height: 61.5rem;
+  padding-left: 2.2rem;
+
+  margin-bottom: 3.9rem;
+}
+
+section h1 {
+  padding-bottom: 3.2rem;
+}
+
+section .item figure {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.6rem;
+  margin-bottom: 3.2rem;
+}
+
+section .item figure img {
+  width: 15.1rem;
+  height: 8.4rem;
+}
+
+section .item figcaption {
+  width: max-content;
+  height: 8.3rem;
+  text-align: left;;
+}
+
+section .item figcaption h3 {
+  font-size: 1.8rem;
+  margin-bottom: .6rem;
+}
+
+section .item figcaption p {
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+}
+
+footer {
+  width: 100%;
+  height: 6.4rem;
+  background-color: #387E96;
+  color: #ffffff;
+  text-align: center;
+  padding: 2.1rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+  .menu-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+    margin: 0 11rem;
+    padding-top: 10rem;
+  }
+
+  main .main-content,
+  main p {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  main .image-1 {
+    width: 80.3rem;
+    height: 40.5rem;
+  }
+
+  main .main-content {
+    width: 80rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  main .main-content h1 {
+    margin-bottom: 0;
+  }
+
+  main .main-content button {
+    gap: 1.2rem;
+  }
+
+  main p {
+    width: 80rem;
+    margin-top: 1rem;
+  }
+}
+
+
+
